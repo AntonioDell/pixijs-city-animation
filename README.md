@@ -5,3 +5,5 @@ Web Component using pixi.js to display a simple scrolling city with parallax eff
 Install dependencies: `npm install`
 
 Run demo: `npm run serve`
+
+TODO: More info
