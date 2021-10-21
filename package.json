@@ -14,7 +14,7 @@
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "postinstall": "node ./node_modules/husky/lib/installer/bin install",
-    "deploy": "git push origin `git subtree split --prefix dist main`:gh-pages --force"
+    "deploy": "gh-pages -d dist"
   },
   "husky": {
     "hooks": {
@@ -22,15 +22,7 @@
     }
   },
   "dependencies": {
-    "@pixi/app": "^5.3.7",
-    "@pixi/constants": "^5.3.7",
-    "@pixi/core": "^5.3.7",
-    "@pixi/graphics": "^5.3.7",
-    "@pixi/math": "^5.3.7",
-    "@pixi/runner": "^5.3.7",
-    "@pixi/settings": "^5.3.7",
-    "@pixi/ticker": "^5.3.7",
-    "@pixi/utils": "^5.3.7"
+    "pixi.js": "^5.3.7"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
@@ -38,6 +30,7 @@
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^5.4.0",
     "husky": "4.3.0",
     "mini-css-extract-plugin": "^2.4.2",

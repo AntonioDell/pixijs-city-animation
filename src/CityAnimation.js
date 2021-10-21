@@ -1,5 +1,5 @@
-import { Application } from "@pixi/app";
-import {Graphics} from "@pixi/graphics"
+import { Application } from "pixi.js";
+import { Graphics } from "@pixi/graphics";
 import { Rectangle } from "@pixi/math";
 import { CloudBuilder } from "./Cloud";
 import { HouseBuilder } from "./House";
