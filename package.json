@@ -16,11 +16,6 @@
     "postinstall": "node ./node_modules/husky/lib/installer/bin install",
     "deploy": "gh-pages -d dist"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build"
-    }
-  },
   "dependencies": {
     "pixi.js": "^5.3.7"
   },
