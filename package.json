@@ -1,7 +1,6 @@
 {
   "name": "pixijs-city-animation",
   "private": true,
-  "type": "module",
   "main": "./src/index.js",
   "module": "./src/index.js",
   "author": {
@@ -16,7 +15,6 @@
     "build": "webpack --config webpack.prod.js",
     "postinstall": "node ./node_modules/husky/lib/installer/bin install",
     "deploy": "git push origin `git subtree split --prefix dist main`:gh-pages --force"
-
   },
   "husky": {
     "hooks": {
