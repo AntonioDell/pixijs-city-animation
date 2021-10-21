@@ -45,7 +45,7 @@ export default class CityAnimation extends Application {
     const bgRect = new Rectangle(0, 0, window.innerWidth, window.innerHeight);
     this.background = new Graphics();
     this.background
-      .beginFill(black)
+      .beginFill(white)
       .drawRect(bgRect.x, bgRect.y, bgRect.width, bgRect.height)
       .endFill();
 
