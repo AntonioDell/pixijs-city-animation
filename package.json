@@ -1,6 +1,9 @@
 {
   "name": "pixijs-city-animation",
   "private": true,
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
   "author": {
     "name": "Antonio Dell'Annunziata",
     "email": "contact@antonio-da.dev"
