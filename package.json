@@ -1,0 +1,38 @@
+{
+  "name": "pixijs-city-animation",
+  "private": true,
+  "author": {
+    "name": "Antonio Dell'Annunziata",
+    "email": "contact@antonio-da.dev"
+  },
+  "description": "Webcomponent to show a simple city animation using pixijs.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "dependencies": {
+    "@pixi/app": "^5.3.7",
+    "@pixi/constants": "^5.3.7",
+    "@pixi/core": "^5.3.7",
+    "@pixi/graphics": "^5.3.7",
+    "@pixi/math": "^5.3.7",
+    "@pixi/runner": "^5.3.7",
+    "@pixi/settings": "^5.3.7",
+    "@pixi/ticker": "^5.3.7",
+    "@pixi/utils": "^5.3.7"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.4.0",
+    "mini-css-extract-plugin": "^2.4.2",
+    "prettier": "^2.4.1",
+    "webpack": "^5.59.1",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}
