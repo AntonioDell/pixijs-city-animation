@@ -33,6 +33,7 @@
     "@pixi/utils": "^5.3.7"
   },
   "devDependencies": {
+    "@babel/core": "^7.15.8",
     "babel-loader": "^8.2.3",
     "clean-webpack-plugin": "^4.0.0",
     "file-loader": "^6.2.0",
