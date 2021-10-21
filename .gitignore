@@ -89,6 +89,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
+dist
 
 # Gatsby files
 .cache/
@@ -139,6 +140,7 @@ test/
 ### Vuejs ###
 # Recommended template: Node.gitignore
 
+dist/
 npm-debug.log
 yarn-error.log
 
